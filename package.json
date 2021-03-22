@@ -1,0 +1,26 @@
+{
+  "name": "fio-bank-payment-request",
+  "version": "1.0.0",
+  "description": "Unofficial FIO BANK module to post EURO payment requests using FIO API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogoossens/fio-bank-payment-request"
+  },
+  "keywords": [
+    "FIO",
+    "POST",
+    "XML",
+    "REQUEST",
+    "SOAP"
+  ],
+  "author": "Oliver Goossens <oliver.goossens@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2",
+    "xmlbuilder": "^15.1.1"
+  }
+}
