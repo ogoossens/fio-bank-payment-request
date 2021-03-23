@@ -65,7 +65,9 @@ fio.postPayments({
 fio.setURL(String url);
 ```
 
+## :exclamation: Important
 
+If you face any issues - see the resolve message. That is the FIO BANK server response and may help you debug.
 
 
 ## :clipboard: Payment Object
@@ -78,11 +80,14 @@ More info see Documents - FIO Banka API manual.pdf
 
 ![2021-03-22 12_52_51-API_Bankovnictvi pdf](https://user-images.githubusercontent.com/8824657/111986060-b906d300-8b0d-11eb-8236-2d9aca735e12.png)
 
-
+## :package: Sibling
+For accessing the FIO Bank account transaction history please use package
+```sh
+require('fio-bank-transaction-history');
+```
 
 ## :question: Get Help
 For bug reports and feature requests, open issues. :bug:
-
 
 
 
@@ -92,10 +97,11 @@ Have an idea? Found a bug? Let me know :thumbsup:
 Thanks! :heart:
 
 
-<!--
+
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
--->
+- *BOLT Driver Management*
+
 
 
 ## :scroll: License
