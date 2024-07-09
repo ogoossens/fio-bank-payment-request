@@ -1,6 +1,6 @@
 {
   "name": "fio-bank-payment-request",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Unofficial FIO BANK module to post EURO payment requests using FIO API",
   "main": "lib/index.js",
   "scripts": {
